@@ -1,3 +1,4 @@
+debugger
 const pageLink = document.querySelectorAll('.menu-scroll');
 pageLink.forEach((elem) => {
     elem.addEventListener('click', (e) => {

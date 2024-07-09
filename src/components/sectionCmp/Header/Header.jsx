@@ -1,9 +1,23 @@
+'use client'
 import { HeaderData } from "@/DataFile/data"
 import Link from "next/link"
+import { useRouter } from "next/navigation";
 
 export default function Header() {
-
+    
+    const router = useRouter();
     const { menuLinks } = HeaderData;
+    const handleClick = (e, href) => {
+        e.preventDefault();
+        if (href.startsWith('#')) {
+            const id = href.substring(1);
+            if (id) {
+                router.push(`#${id}`, undefined, { shallow: true });
+            }
+        } else {
+            router.push(href);
+        }
+    };
 
     return (
         <header class="header me d f g y bc mb id ai">
@@ -29,7 +43,7 @@ export default function Header() {
                                         <>
                                             {!ele.subMenuLinks ? (
                                                 <li class="e dj">
-                                                    <Link href={ele.url} class="menu-scroll ug jh gj if _l gl am mb ea zk _k vm">
+                                                    <Link href={ele.url} onClick={(e) => handleClick(e, ele.url)} class="menu-scroll ug jh gj if _l gl am mb ea zk _k vm">
                                                         {ele.linkTitle}
                                                     </Link>
                                                 </li>
@@ -42,7 +56,7 @@ export default function Header() {
                                                         </Link>
                                                         <div class="submenu ob e tk ec j uk g rd qm af el om rk ij sm tm oe bi ci">
                                                             {ele.subMenuLinks.map((ele) => (
-                                                                <a href={ele.url} class="kb vg jh sd ui jf df"> {ele.linkTitle} </a>
+                                                                <a href={ele.url} onClick={(e) => handleClick(e, ele.url)} class="kb vg jh sd ui jf df"> {ele.linkTitle} </a>
                                                             ))}
                                                         </div>
                                                     </li>

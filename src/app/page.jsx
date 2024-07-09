@@ -1,15 +1,11 @@
 import About from "@/components/sectionCmp/About/About";
-import Clients from "@/components/sectionCmp/Clients/Clients";
+import AcademicJourney from "@/components/sectionCmp/AcademicJourney/AcademicJourney";
 import Contact from "@/components/sectionCmp/Contact/Contact";
-import DropEmail from "@/components/sectionCmp/DropEmail/DropEmail";
-import EducationAndExperience from "@/components/sectionCmp/EducationAndExperience/EducationAndExperience";
+import Experience from "@/components/sectionCmp/Experience/Experience";
 import Hero from "@/components/sectionCmp/Hero/Hero";
-import Pricing from "@/components/sectionCmp/Pricing/Pricing";
 import Projects from "@/components/sectionCmp/Projects/Projects";
-import RecentsWorks from "@/components/sectionCmp/RecentsWorks/RecentsWorks";
 import ScrollToTop from "@/components/sectionCmp/ScrolllToTop/ScrollToTop";
-import Services from "@/components/sectionCmp/Services/Services";
-import Testimonials from "@/components/sectionCmp/Testimonials/Testimonials";
+import Skills from "@/components/sectionCmp/Skills/Skills";
 
 
 export default function Home() {
@@ -17,13 +13,14 @@ export default function Home() {
     <>
       <Hero />
       <About />
-      <Services />
-      <RecentsWorks />
-      <Clients />
-      <DropEmail />
-      <EducationAndExperience />
-      <Pricing />
-      <Testimonials />
+      <Skills />
+      <AcademicJourney />
+      {/* <RecentsWorks /> */}
+      {/* <Clients /> */}
+      {/* <DropEmail /> */}
+      <Experience />
+      {/* <Pricing /> */}
+      {/* <Testimonials /> */}
       <Projects />
       <Contact />
       <ScrollToTop />

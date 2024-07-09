@@ -11,7 +11,7 @@ export function BackgroundBoxesDemo() {
     <div className=" relative w-full overflow-hidden bg-[#090e34] rounded-lg">
       <div className="absolute inset-0 w-full h-full bg-[#090e34] z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
       <Boxes />
-      <footer class="ag bg e z">
+      <footer class="ag bg e z relative z-20">
       <div class="a">
         <div class="mb hd ga">
           <div class="bc ek/2 kl/12 df">

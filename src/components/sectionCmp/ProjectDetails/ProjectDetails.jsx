@@ -1,32 +1,32 @@
 export default function ProjectDetails() {
     return (
-        <section class="yf">
-            <div class="a">
-                <div class="zf zd de">
-                    <div class="mb hd kd ca">
-                        <div class="bc jl/12 df">
+        <section className="yf">
+            <div className="a">
+                <div className="zf zd de">
+                    <div className="mb hd kd ca">
+                        <div className="bc jl/12 df">
                             <div>
-                                <div class="bc sd od la">
-                                    <img src="/images/news-details.jpg" alt="image" class="bc qb ze _e" />
+                                <div className="bc sd od la">
+                                    <img src="/images/news-details.jpg" alt="image" className="bc qb ze _e" />
                                 </div>
-                                <h2 class="dh jh wg wj hh ak ma">10 amazing sites to download stock photos & digital assets for free</h2>
-                                <div class="mb hd id ld _f la zd de">
-                                    <div class="mb hd id">
-                                        <div class="mb id na oa">
-                                            <div class="qc bc rb td od pa">
-                                                <img src="/images/author.png" alt="author" class="bc" />
+                                <h2 className="dh jh wg wj hh ak ma">10 amazing sites to download stock photos & digital assets for free</h2>
+                                <div className="mb hd id ld _f la zd de">
+                                    <div className="mb hd id">
+                                        <div className="mb id na oa">
+                                            <div className="qc bc rb td od pa">
+                                                <img src="/images/author.png" alt="author" className="bc" />
                                             </div>
-                                            <div class="bc">
-                                                <h4 class="ug eh lh qa">
+                                            <div className="bc">
+                                                <h4 className="ug eh lh qa">
                                                     By
-                                                    <a href="javascript:void(0)" class="lh ui"> Musharof Chy </a>
+                                                    <a href="javascript:void(0)" className="lh ui"> Musharof Chy </a>
                                                 </h4>
                                             </div>
                                         </div>
-                                        <div class="mb id oa">
-                                            <p class="mb id ug lh eh ra">
-                                                <span class="sa">
-                                                    <svg width="15" height="15" viewBox="0 0 15 15" class="ye">
+                                        <div className="mb id oa">
+                                            <p className="mb id ug lh eh ra">
+                                                <span className="sa">
+                                                    <svg width="15" height="15" viewBox="0 0 15 15" className="ye">
                                                         <path d="M3.89531 8.67529H3.10666C2.96327 8.67529 2.86768 8.77089 2.86768 8.91428V9.67904C2.86768 9.82243 2.96327 9.91802 3.10666 9.91802H3.89531C4.03871 9.91802 4.1343 9.82243 4.1343 9.67904V8.91428C4.1343 8.77089 4.03871 8.67529 3.89531 8.67529Z" />
                                                         <path d="M6.429 8.67529H5.64035C5.49696 8.67529 5.40137 8.77089 5.40137 8.91428V9.67904C5.40137 9.82243 5.49696 9.91802 5.64035 9.91802H6.429C6.57239 9.91802 6.66799 9.82243 6.66799 9.67904V8.91428C6.66799 8.77089 6.5485 8.67529 6.429 8.67529Z" />
                                                         <path d="M8.93828 8.67529H8.14963C8.00624 8.67529 7.91064 8.77089 7.91064 8.91428V9.67904C7.91064 9.82243 8.00624 9.91802 8.14963 9.91802H8.93828C9.08167 9.91802 9.17727 9.82243 9.17727 9.67904V8.91428C9.17727 8.77089 9.08167 8.67529 8.93828 8.67529Z" />
@@ -40,9 +40,9 @@ export default function ProjectDetails() {
                                                 </span>
                                                 12 Jan 2024
                                             </p>
-                                            <p class="mb id ug lh eh ra">
-                                                <span class="sa">
-                                                    <svg width="18" height="13" viewBox="0 0 18 13" class="ye">
+                                            <p className="mb id ug lh eh ra">
+                                                <span className="sa">
+                                                    <svg width="18" height="13" viewBox="0 0 18 13" className="ye">
                                                         <path d="M15.6375 0H1.6875C0.759375 0 0 0.759375 0 1.6875V10.6875C0 11.3062 0.309375 11.8406 0.84375 12.15C1.09687 12.2906 1.40625 12.375 1.6875 12.375C1.96875 12.375 2.25 12.2906 2.53125 12.15L5.00625 10.7156C5.11875 10.6594 5.23125 10.6312 5.34375 10.6312H15.6094C16.5375 10.6312 17.2969 9.87187 17.2969 8.94375V1.6875C17.325 0.759375 16.5656 0 15.6375 0ZM16.3406 8.94375C16.3406 9.3375 16.0312 9.64687 15.6375 9.64687H5.37187C5.09062 9.64687 4.78125 9.73125 4.52812 9.87187L2.05313 11.3063C1.82812 11.4187 1.575 11.4187 1.35 11.3063C1.125 11.1938 1.0125 10.9688 1.0125 10.7156V1.6875C1.0125 1.29375 1.32188 0.984375 1.71563 0.984375H15.6656C16.0594 0.984375 16.3687 1.29375 16.3687 1.6875V8.94375H16.3406Z" />
                                                         <path d="M12.2342 3.375H4.69668C4.41543 3.375 4.19043 3.6 4.19043 3.88125C4.19043 4.1625 4.41543 4.3875 4.69668 4.3875H12.2623C12.5435 4.3875 12.7685 4.1625 12.7685 3.88125C12.7685 3.6 12.5154 3.375 12.2342 3.375Z" />
                                                         <path d="M11.0529 6.55322H4.69668C4.41543 6.55322 4.19043 6.77822 4.19043 7.05947C4.19043 7.34072 4.41543 7.56572 4.69668 7.56572H11.0811C11.3623 7.56572 11.5873 7.34072 11.5873 7.05947C11.5873 6.77822 11.3342 6.55322 11.0529 6.55322Z" />
@@ -50,9 +50,9 @@ export default function ProjectDetails() {
                                                 </span>
                                                 50
                                             </p>
-                                            <p class="mb id ug lh eh">
-                                                <span class="sa">
-                                                    <svg width="20" height="12" viewBox="0 0 20 12" class="ye">
+                                            <p className="mb id ug lh eh">
+                                                <span className="sa">
+                                                    <svg width="20" height="12" viewBox="0 0 20 12" className="ye">
                                                         <path d="M10.2559 3.8125C9.03711 3.8125 8.06836 4.8125 8.06836 6C8.06836 7.1875 9.06836 8.1875 10.2559 8.1875C11.4434 8.1875 12.4434 7.1875 12.4434 6C12.4434 4.8125 11.4746 3.8125 10.2559 3.8125ZM10.2559 7.09375C9.66211 7.09375 9.16211 6.59375 9.16211 6C9.16211 5.40625 9.66211 4.90625 10.2559 4.90625C10.8496 4.90625 11.3496 5.40625 11.3496 6C11.3496 6.59375 10.8496 7.09375 10.2559 7.09375Z" />
                                                         <path d="M19.7559 5.625C17.6934 2.375 14.1309 0.4375 10.2559 0.4375C6.38086 0.4375 2.81836 2.375 0.755859 5.625C0.630859 5.84375 0.630859 6.125 0.755859 6.34375C2.81836 9.59375 6.38086 11.5312 10.2559 11.5312C14.1309 11.5312 17.6934 9.59375 19.7559 6.34375C19.9121 6.125 19.9121 5.84375 19.7559 5.625ZM10.2559 10.4375C6.84961 10.4375 3.69336 8.78125 1.81836 5.96875C3.69336 3.1875 6.84961 1.53125 10.2559 1.53125C13.6621 1.53125 16.8184 3.1875 18.6934 5.96875C16.8184 8.78125 13.6621 10.4375 10.2559 10.4375Z" />
                                                     </svg>
@@ -61,43 +61,43 @@ export default function ProjectDetails() {
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="oa">
-                                        <span class="pe td nb id kd if df fh vg kh"> Design </span>
+                                    <div className="oa">
+                                        <span className="pe td nb id kd if df fh vg kh"> Design </span>
                                     </div>
                                 </div>
                                 <div>
-                                    <p class="eh lh ug xj jm hn bk mm jn ih la">
+                                    <p className="eh lh ug xj jm hn bk mm jn ih la">
                                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
                                     </p>
-                                    <p class="eh lh ug xj jm hn bk mm jn ih ma">
+                                    <p className="eh lh ug xj jm hn bk mm jn ih ma">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum. Neque sodales
                                         ut etiam sit amet. Ligula ullamcorper
-                                        <strong class="mh"> malesuada </strong> proin libero nunc consequat interdum varius. Quam pellentesque nec nam aliquam sem et tortor consequat. Pellentesque adipiscing
+                                        <strong className="mh"> malesuada </strong> proin libero nunc consequat interdum varius. Quam pellentesque nec nam aliquam sem et tortor consequat. Pellentesque adipiscing
                                         commodo elit at imperdiet.
                                     </p>
-                                    <p class="eh lh ug xj jm hn bk mm jn ih la">
+                                    <p className="eh lh ug xj jm hn bk mm jn ih la">
                                         Semper auctor neque vitae tempus quam pellentesque nec.
-                                        <span class="mh nh"> Amet dictum sit amet justo </span>
+                                        <span className="mh nh"> Amet dictum sit amet justo </span>
                                         donec enim diam. Varius sit amet mattis vulputate enim nulla aliquet porttitor. Odio pellentesque diam volutpat commodo sed.
                                     </p>
-                                    <h3 class="dh jh mn yj km in hh ak nm kn la">
+                                    <h3 className="dh jh mn yj km in hh ak nm kn la">
                                         Digital marketplace for Ui/Ux designers.
                                     </h3>
-                                    <p class="eh lh ug xj jm hn bk mm jn ih la">
+                                    <p className="eh lh ug xj jm hn bk mm jn ih la">
                                         consectetur adipiscing elit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat mattis vulputate cupidatat.
                                     </p>
-                                    <ul class="gd fd lh la">
-                                        <li class="eh lh ug xj jm hn ta">Consectetur adipiscing elit in voluptate velit.</li>
-                                        <li class="eh lh ug xj jm hn ta">Mattis vulputate cupidatat.</li>
-                                        <li class="eh lh ug xj jm hn ta">Vulputate enim nulla aliquet porttitor odio pellentesque</li>
-                                        <li class="eh lh ug xj jm hn ta">Ligula ullamcorper malesuada proin</li>
+                                    <ul className="gd fd lh la">
+                                        <li className="eh lh ug xj jm hn ta">Consectetur adipiscing elit in voluptate velit.</li>
+                                        <li className="eh lh ug xj jm hn ta">Mattis vulputate cupidatat.</li>
+                                        <li className="eh lh ug xj jm hn ta">Vulputate enim nulla aliquet porttitor odio pellentesque</li>
+                                        <li className="eh lh ug xj jm hn ta">Ligula ullamcorper malesuada proin</li>
                                     </ul>
-                                    <div class="rd od bf ik wl cn pe e z la">
-                                        <p class="rc fa sg ug kh gh eh">
+                                    <div className="rd od bf ik wl cn pe e z la">
+                                        <p className="rc fa sg ug kh gh eh">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt utionals labore et dolore magna aliqua. Quis lobortis scelerisque fermentum, The Neque ut etiam
                                             sit amet.
                                         </p>
-                                        <span class="d g k nn">
+                                        <span className="d g k nn">
                                             <svg width="182" height="160" viewBox="0 0 182 160" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <rect opacity="0.2" width="151.758" height="252.328" transform="matrix(0.691726 0.72216 0.72216 -0.691726 -105.499 95.7517)" fill="url(#paint0_linear_54:283)" />
                                                 <defs>
@@ -108,7 +108,7 @@ export default function ProjectDetails() {
                                                 </defs>
                                             </svg>
                                         </span>
-                                        <span class="d l m nn">
+                                        <span className="d l m nn">
                                             <svg width="24" height="35" viewBox="0 0 24 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <g opacity="0.8">
                                                     <circle cx="12.1319" cy="1.22711" r="1.22711" transform="rotate(90 12.1319 1.22711)" fill="white" />
@@ -127,39 +127,39 @@ export default function ProjectDetails() {
                                             </svg>
                                         </span>
                                     </div>
-                                    <p class="eh lh ug xj jm hn bk mm jn ih la">
+                                    <p className="eh lh ug xj jm hn bk mm jn ih la">
                                         consectetur adipiscing elit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat mattis vulputate cupidatat.
                                     </p>
-                                    <div class="nj id ld">
-                                        <div class="oa">
-                                            <h5 class="eh lh vg ua">Popular Tags :</h5>
-                                            <div class="mb id">
-                                                <a href="javascript:void(0)" class="nb id kd if df pa rd pe ve lh ti vi ai">
+                                    <div className="nj id ld">
+                                        <div className="oa">
+                                            <h5 className="eh lh vg ua">Popular Tags :</h5>
+                                            <div className="mb id">
+                                                <a href="javascript:void(0)" className="nb id kd if df pa rd pe ve lh ti vi ai">
                                                     Design
                                                 </a>
-                                                <a href="javascript:void(0)" class="nb id kd if df pa rd pe ve lh ti vi ai">
+                                                <a href="javascript:void(0)" className="nb id kd if df pa rd pe ve lh ti vi ai">
                                                     Development
                                                 </a>
-                                                <a href="javascript:void(0)" class="nb id kd if df pa rd pe ve lh ti vi ai">
+                                                <a href="javascript:void(0)" className="nb id kd if df pa rd pe ve lh ti vi ai">
                                                     Info
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="oa">
-                                            <h5 class="eh lh vg vj ua">Share this post :</h5>
-                                            <div class="mb id pj">
-                                                <a href="javascript:void(0)" class="nb id kd fc sb lj rd pe ve lh ti vi ai">
-                                                    <svg width="16" height="16" viewBox="0 0 16 16" class="ye">
+                                        <div className="oa">
+                                            <h5 className="eh lh vg vj ua">Share this post :</h5>
+                                            <div className="mb id pj">
+                                                <a href="javascript:void(0)" className="nb id kd fc sb lj rd pe ve lh ti vi ai">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" className="ye">
                                                         <path d="M14.3442 0H1.12455C0.499798 0 0 0.497491 0 1.11936V14.3029C0 14.8999 0.499798 15.4222 1.12455 15.4222H14.2942C14.919 15.4222 15.4188 14.9247 15.4188 14.3029V1.09448C15.4688 0.497491 14.969 0 14.3442 0ZM4.57316 13.1089H2.29907V5.7709H4.57316V13.1089ZM3.42362 4.75104C2.67392 4.75104 2.09915 4.15405 2.09915 3.43269C2.09915 2.71133 2.69891 2.11434 3.42362 2.11434C4.14833 2.11434 4.74809 2.71133 4.74809 3.43269C4.74809 4.15405 4.19831 4.75104 3.42362 4.75104ZM13.1947 13.1089H10.9206V9.55183C10.9206 8.7061 10.8956 7.58674 9.72108 7.58674C8.52156 7.58674 8.34663 8.53198 8.34663 9.47721V13.1089H6.07255V5.7709H8.29665V6.79076H8.32164C8.64651 6.19377 9.37122 5.59678 10.4958 5.59678C12.8198 5.59678 13.2447 7.08925 13.2447 9.12897V13.1089H13.1947Z" />
                                                     </svg>
                                                 </a>
-                                                <a href="javascript:void(0)" class="nb id kd fc sb va rd pe ve lh ti vi ai">
-                                                    <svg width="18" height="14" viewBox="0 0 18 14" class="ye">
+                                                <a href="javascript:void(0)" className="nb id kd fc sb va rd pe ve lh ti vi ai">
+                                                    <svg width="18" height="14" viewBox="0 0 18 14" className="ye">
                                                         <path d="M15.5524 2.26027L16.625 1.0274C16.9355 0.693493 17.0202 0.436644 17.0484 0.308219C16.2016 0.770548 15.4113 0.924658 14.9032 0.924658H14.7056L14.5927 0.821918C13.9153 0.282534 13.0685 0 12.1653 0C10.1895 0 8.6371 1.48973 8.6371 3.21062C8.6371 3.31336 8.6371 3.46747 8.66532 3.57021L8.75 4.0839L8.15726 4.05822C4.54435 3.95548 1.58065 1.13014 1.10081 0.642123C0.310484 1.92637 0.762097 3.15925 1.24194 3.92979L2.20161 5.36815L0.677419 4.5976C0.705645 5.67637 1.15726 6.52397 2.03226 7.14041L2.79435 7.65411L2.03226 7.93665C2.5121 9.24658 3.58468 9.78596 4.375 9.99144L5.41935 10.2483L4.43145 10.8647C2.85081 11.8921 0.875 11.8151 0 11.738C1.77823 12.8682 3.89516 13.125 5.3629 13.125C6.46371 13.125 7.28226 13.0223 7.47984 12.9452C15.3831 11.25 15.75 4.82877 15.75 3.54452V3.36473L15.9194 3.26199C16.879 2.44007 17.2742 2.00342 17.5 1.74658C17.4153 1.77226 17.3024 1.82363 17.1895 1.84932L15.5524 2.26027Z" />
                                                     </svg>
                                                 </a>
-                                                <a href="javascript:void(0)" class="nb id kd fc sb va rd pe ve lh ti vi ai">
-                                                    <svg width="9" height="18" viewBox="0 0 9 18" class="ye">
+                                                <a href="javascript:void(0)" className="nb id kd fc sb va rd pe ve lh ti vi ai">
+                                                    <svg width="9" height="18" viewBox="0 0 9 18" className="ye">
                                                         <path d="M8.13643 7H6.78036H6.29605V6.43548V4.68548V4.12097H6.78036H7.79741C8.06378 4.12097 8.28172 3.89516 8.28172 3.55645V0.564516C8.28172 0.254032 8.088 0 7.79741 0H6.02968C4.11665 0 2.78479 1.58064 2.78479 3.92339V6.37903V6.94355H2.30048H0.65382C0.314802 6.94355 0 7.25403 0 7.70564V9.7379C0 10.1331 0.266371 10.5 0.65382 10.5H2.25205H2.73636V11.0645V16.7379C2.73636 17.1331 3.00273 17.5 3.39018 17.5H5.66644C5.81174 17.5 5.93281 17.4153 6.02968 17.3024C6.12654 17.1895 6.19919 16.9919 6.19919 16.8226V11.0927V10.5282H6.70771H7.79741C8.11222 10.5282 8.35437 10.3024 8.4028 9.96371V9.93548V9.90726L8.74182 7.95968C8.76604 7.7621 8.74182 7.53629 8.59653 7.31048C8.54809 7.16935 8.33016 7.02823 8.13643 7Z" />
                                                     </svg>
                                                 </a>

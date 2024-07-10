@@ -178,52 +178,52 @@ export const CardDescription = ({
 
 
 
-function cardbody({
-  items,
-}: {
-  items: {
-    title: string;
-    description: string;
-    link: string;
-  }
-}) {
-  return (
-    <>
-      <div className="oe dj ri wh of lf ud e z od sg di">
-        <div className="fa kc xb eb td pe mb id kd kh fj gj">
-          <svg width="30" height="30" viewBox="0 0 30 30" className="ye">
-            <path
-              d="M16.6667 0V13.3333H30V0H16.6667ZM0 30H13.3333V16.6667H0V30ZM0 0V13.3333H13.3333V0H0ZM16.6667 21.6667H21.6667V16.6667H25V21.6667H30V25H25V30H21.6667V25H16.6667V21.6667Z" />
-          </svg>
-        </div>
-        <h3 className="dh jh zg yj km 2xl:ud-text-2xl hj ua">{items.title}</h3>
-        <p className="eh lh hj ih vg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ligulavel in.
-        </p>
-        <div>
-          <span className="d f q nn">
-            <svg width="218" height="109" viewBox="0 0 218 109" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle opacity="0.05" cx="156.5" cy="-47.5" r="156.5" fill="white" />
-              <circle opacity="0.08" cx="210" cy="6" r="62" fill="white" />
-            </svg>
-          </span>
-          <span className="d t u nn">
-            <svg width="23" height="32" viewBox="0 0 23 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="21.262" cy="1.12081" r="1.12081" transform="rotate(90 21.262 1.12081)" fill="white" />
-              <circle cx="21.262" cy="30.4863" r="1.12081" transform="rotate(90 21.262 30.4863)" fill="white" />
-              <circle cx="1.76005" cy="1.12081" r="1.12081" transform="rotate(90 1.76005 1.12081)" fill="white" />
-              <circle cx="1.76005" cy="30.4863" r="1.12081" transform="rotate(90 1.76005 30.4863)" fill="white" />
-              <circle cx="11.6228" cy="1.12081" r="1.12081" transform="rotate(90 11.6228 1.12081)" fill="white" />
-              <circle cx="11.6228" cy="30.4863" r="1.12081" transform="rotate(90 11.6228 30.4863)" fill="white" />
-              <circle cx="21.262" cy="10.9839" r="1.12081" transform="rotate(90 21.262 10.9839)" fill="white" />
-              <circle cx="1.76005" cy="10.9839" r="1.12081" transform="rotate(90 1.76005 10.9839)" fill="white" />
-              <circle cx="11.6228" cy="10.9839" r="1.12081" transform="rotate(90 11.6228 10.9839)" fill="white" />
-              <circle cx="21.262" cy="20.8469" r="1.12081" transform="rotate(90 21.262 20.8469)" fill="white" />
-              <circle cx="1.76005" cy="20.8469" r="1.12081" transform="rotate(90 1.76005 20.8469)" fill="white" />
-              <circle cx="11.6228" cy="20.8469" r="1.12081" transform="rotate(90 11.6228 20.8469)" fill="white" />
-            </svg>
-          </span>
-        </div>
-      </div>
-    </>
-  )
-}
+// function cardbody({
+//   items,
+// }: {
+//   items: {
+//     title: string;
+//     description: string;
+//     link: string;
+//   }
+// }) {
+//   return (
+//     <>
+//       <div className="oe dj ri wh of lf ud e z od sg di">
+//         <div className="fa kc xb eb td pe mb id kd kh fj gj">
+//           <svg width="30" height="30" viewBox="0 0 30 30" className="ye">
+//             <path
+//               d="M16.6667 0V13.3333H30V0H16.6667ZM0 30H13.3333V16.6667H0V30ZM0 0V13.3333H13.3333V0H0ZM16.6667 21.6667H21.6667V16.6667H25V21.6667H30V25H25V30H21.6667V25H16.6667V21.6667Z" />
+//           </svg>
+//         </div>
+//         <h3 className="dh jh zg yj km 2xl:ud-text-2xl hj ua">{items.title}</h3>
+//         <p className="eh lh hj ih vg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ligulavel in.
+//         </p>
+//         <div>
+//           <span className="d f q nn">
+//             <svg width="218" height="109" viewBox="0 0 218 109" fill="none" xmlns="http://www.w3.org/2000/svg">
+//               <circle opacity="0.05" cx="156.5" cy="-47.5" r="156.5" fill="white" />
+//               <circle opacity="0.08" cx="210" cy="6" r="62" fill="white" />
+//             </svg>
+//           </span>
+//           <span className="d t u nn">
+//             <svg width="23" height="32" viewBox="0 0 23 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+//               <circle cx="21.262" cy="1.12081" r="1.12081" transform="rotate(90 21.262 1.12081)" fill="white" />
+//               <circle cx="21.262" cy="30.4863" r="1.12081" transform="rotate(90 21.262 30.4863)" fill="white" />
+//               <circle cx="1.76005" cy="1.12081" r="1.12081" transform="rotate(90 1.76005 1.12081)" fill="white" />
+//               <circle cx="1.76005" cy="30.4863" r="1.12081" transform="rotate(90 1.76005 30.4863)" fill="white" />
+//               <circle cx="11.6228" cy="1.12081" r="1.12081" transform="rotate(90 11.6228 1.12081)" fill="white" />
+//               <circle cx="11.6228" cy="30.4863" r="1.12081" transform="rotate(90 11.6228 30.4863)" fill="white" />
+//               <circle cx="21.262" cy="10.9839" r="1.12081" transform="rotate(90 21.262 10.9839)" fill="white" />
+//               <circle cx="1.76005" cy="10.9839" r="1.12081" transform="rotate(90 1.76005 10.9839)" fill="white" />
+//               <circle cx="11.6228" cy="10.9839" r="1.12081" transform="rotate(90 11.6228 10.9839)" fill="white" />
+//               <circle cx="21.262" cy="20.8469" r="1.12081" transform="rotate(90 21.262 20.8469)" fill="white" />
+//               <circle cx="1.76005" cy="20.8469" r="1.12081" transform="rotate(90 1.76005 20.8469)" fill="white" />
+//               <circle cx="11.6228" cy="20.8469" r="1.12081" transform="rotate(90 11.6228 20.8469)" fill="white" />
+//             </svg>
+//           </span>
+//         </div>
+//       </div>
+//     </>
+//   )
+// }

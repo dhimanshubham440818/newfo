@@ -1,37 +1,37 @@
 export default function Testimonials() {
     return (
-        <section id="testimonial" class="ig fg">
-            <div class="a">
-                <div class="mb hd ca">
-                    <div class="bc df">
-                        <div class="vc fa sg gb">
-                            <span class="fh _g mh kb ta"> Awesome Testimonials </span>
-                            <h2 class="dh jh wg wj kk oa">Hear From My Clients</h2>
-                            <p class="eh _g lh">There are many variations of passages of Lorem Ipsum available but the majority have
+        <section id="testimonial" className="ig fg">
+            <div className="a">
+                <div className="mb hd ca">
+                    <div className="bc df">
+                        <div className="vc fa sg gb">
+                            <span className="fh _g mh kb ta"> Awesome Testimonials </span>
+                            <h2 className="dh jh wg wj kk oa">Hear From My Clients</h2>
+                            <p className="eh _g lh">There are many variations of passages of Lorem Ipsum available but the majority have
                                 suffered alteration in some form.</p>
                         </div>
                     </div>
                 </div>
-                <div class="mb hd ga">
-                    <div class="bc pl/2 df">
-                        <div class="oe ud e od uf tj cf xh la">
-                            <div class="oa">
-                                <img src="images/lineicon.svg" alt="lineicons" class="zb" />
+                <div className="mb hd ga">
+                    <div className="bc pl/2 df">
+                        <div className="oe ud e od uf tj cf xh la">
+                            <div className="oa">
+                                <img src="images/lineicon.svg" alt="lineicons" className="zb" />
                             </div>
-                            <p class="eh _g lh ma">
+                            <p className="eh _g lh ma">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus
                                 tempus ut. Sed sodales erat a libero.
                             </p>
-                            <div class="mb id">
-                                <div class="_c bc _b td od sa">
-                                    <img src="images/image-1.png" alt="image" class="bc" />
+                            <div className="mb id">
+                                <div className="_c bc _b td od sa">
+                                    <img src="images/image-1.png" alt="image" className="bc" />
                                 </div>
                                 <div>
-                                    <h3 class="fh ug jh qa">Musharof Chy</h3>
-                                    <p class="vg lh">Founder @ LineIcons</p>
+                                    <h3 className="fh ug jh qa">Musharof Chy</h3>
+                                    <p className="vg lh">Founder @ LineIcons</p>
                                 </div>
                             </div>
-                            <div class="d n o">
+                            <div className="d n o">
                                 <svg width="51" height="29" viewBox="0 0 51 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g opacity="0.15">
                                         <path
@@ -45,25 +45,25 @@ export default function Testimonials() {
                             </div>
                         </div>
                     </div>
-                    <div class="bc pl/2 df">
-                        <div class="oe ud e od uf tj cf xh la">
-                            <div class="oa">
-                                <img src="images/tailgrid.svg" alt="tailgrids" class="ac" />
+                    <div className="bc pl/2 df">
+                        <div className="oe ud e od uf tj cf xh la">
+                            <div className="oa">
+                                <img src="images/tailgrid.svg" alt="tailgrids" className="ac" />
                             </div>
-                            <p class="eh _g lh ma">
+                            <p className="eh _g lh ma">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus
                                 tempus ut. Sed sodales erat a libero.
                             </p>
-                            <div class="mb id">
-                                <div class="_c bc _b td od sa">
-                                    <img src="images/image-2.png" alt="image" class="bc" />
+                            <div className="mb id">
+                                <div className="_c bc _b td od sa">
+                                    <img src="images/image-2.png" alt="image" className="bc" />
                                 </div>
                                 <div>
-                                    <h3 class="fh ug jh qa">Devid Sailio</h3>
-                                    <p class="vg lh">Founder @ TailGrids</p>
+                                    <h3 className="fh ug jh qa">Devid Sailio</h3>
+                                    <p className="vg lh">Founder @ TailGrids</p>
                                 </div>
                             </div>
-                            <div class="d n o">
+                            <div className="d n o">
                                 <svg width="51" height="29" viewBox="0 0 51 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g opacity="0.15">
                                         <path
@@ -77,25 +77,25 @@ export default function Testimonials() {
                             </div>
                         </div>
                     </div>
-                    <div class="bc pl/2 df">
-                        <div class="oe ud e od uf tj cf xh la">
-                            <div class="oa">
-                                <img src="images/ayro.svg" alt="ayroui" class="ac" />
+                    <div className="bc pl/2 df">
+                        <div className="oe ud e od uf tj cf xh la">
+                            <div className="oa">
+                                <img src="images/ayro.svg" alt="ayroui" className="ac" />
                             </div>
-                            <p class="eh _g lh ma">
+                            <p className="eh _g lh ma">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus
                                 tempus ut. Sed sodales erat a libero.
                             </p>
-                            <div class="mb id">
-                                <div class="_c bc _b td od sa">
-                                    <img src="images/image-3.png" alt="image" class="bc" />
+                            <div className="mb id">
+                                <div className="_c bc _b td od sa">
+                                    <img src="images/image-3.png" alt="image" className="bc" />
                                 </div>
                                 <div>
-                                    <h3 class="fh ug jh qa">Jenifer Lofeez</h3>
-                                    <p class="vg lh">Founder @ Ayro UI</p>
+                                    <h3 className="fh ug jh qa">Jenifer Lofeez</h3>
+                                    <p className="vg lh">Founder @ Ayro UI</p>
                                 </div>
                             </div>
-                            <div class="d n o">
+                            <div className="d n o">
                                 <svg width="51" height="29" viewBox="0 0 51 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g opacity="0.15">
                                         <path
@@ -109,25 +109,25 @@ export default function Testimonials() {
                             </div>
                         </div>
                     </div>
-                    <div class="bc pl/2 df">
-                        <div class="oe ud e od uf tj cf xh la">
-                            <div class="oa">
-                                <img src="images/uidecks.svg" alt="uideck" class="ac" />
+                    <div className="bc pl/2 df">
+                        <div className="oe ud e od uf tj cf xh la">
+                            <div className="oa">
+                                <img src="images/uidecks.svg" alt="uideck" className="ac" />
                             </div>
-                            <p class="eh _g lh ma">
+                            <p className="eh _g lh ma">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus
                                 tempus ut. Sed sodales erat a libero.
                             </p>
-                            <div class="mb id">
-                                <div class="_c bc _b td od sa">
-                                    <img src="images/image-4.png" alt="image" class="bc" />
+                            <div className="mb id">
+                                <div className="_c bc _b td od sa">
+                                    <img src="images/image-4.png" alt="image" className="bc" />
                                 </div>
                                 <div>
-                                    <h3 class="fh ug jh qa">Justin Herry</h3>
-                                    <p class="vg lh">Founder @ UIdeck</p>
+                                    <h3 className="fh ug jh qa">Justin Herry</h3>
+                                    <p className="vg lh">Founder @ UIdeck</p>
                                 </div>
                             </div>
-                            <div class="d n o">
+                            <div className="d n o">
                                 <svg width="51" height="29" viewBox="0 0 51 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g opacity="0.15">
                                         <path

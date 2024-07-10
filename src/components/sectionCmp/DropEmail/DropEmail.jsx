@@ -1,20 +1,20 @@
 export default function DropEmail() {
     return (
-        <section class="hb">
-            <div class="a">
-                <div class="pe vd e od z sg rf">
-                    <div class="xc fa nf">
-                        <h2 class="dh kh yg ok hh la">Want to work together and create amazing products with me?</h2>
-                        <form class="e yc fa">
+        <section className="hb">
+            <div className="a">
+                <div className="pe vd e od z sg rf">
+                    <div className="xc fa nf">
+                        <h2 className="dh kh yg ok hh la">Want to work together and create amazing products with me?</h2>
+                        <form className="e yc fa">
                             <input type="email" placeholder="Enter your email"
-                                class="bc td xd ee le oe we lf sf kh oh ph yh cj aj ai sg sm:text-left oa mj" />
-                            <button class="oe mh td fh ug sf sj pf bc oj jj v w">
+                                className="bc td xd ee le oe we lf sf kh oh ph yh cj aj ai sg sm:text-left oa mj" />
+                            <button className="oe mh td fh ug sf sj pf bc oj jj v w">
                                 Get a Quote
                             </button>
                         </form>
                     </div>
-                    <div class="d k g q bc nn">
-                        <svg width="818" height="286" viewBox="0 0 818 286" fill="none" xmlns="http://www.w3.org/2000/svg" class="fa">
+                    <div className="d k g q bc nn">
+                        <svg width="818" height="286" viewBox="0 0 818 286" fill="none" xmlns="http://www.w3.org/2000/svg" className="fa">
                             <circle cx="409" cy="409" r="408.5" stroke="url(#paint0_linear_0:1)" />
                             <circle cx="409" cy="409" r="349.5" stroke="url(#paint1_linear_0:1)" />
                             <defs>
